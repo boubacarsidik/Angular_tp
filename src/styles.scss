@@ -1,1 +1,23 @@
 /* You can add global styles to this file, and also import other style files */
+.lightZone{
+    background-color: #DCE4F2;
+    color: #592F16;
+}
+.darkZone{
+    background-color: #592F16;
+    color: #DCE4F2;
+}
+
+.lightZone h1{
+    border-bottom:2px solid #592F16;
+    font-size: 38px;
+}
+
+header span{
+    font-size: 38px;
+    font-family: 'sansation', serif;
+}
+
+.container{
+    border: 2px solid #592F16;
+}
