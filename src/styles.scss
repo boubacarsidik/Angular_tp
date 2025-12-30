@@ -1,12 +1,15 @@
-/* You can add global styles to this file, and also import other style files */
+$mon-bleu-dark: #592F16; 
+$mon-gris-light: #DCE4F2; 
+
+$primary: $mon-bleu-dark;
+$secondary: $mon-gris-light;
+
+@import "bootstrap/scss/bootstrap";
 .lightZone{
     background-color: #DCE4F2;
     color: #592F16;
 }
-.lightZone{
-    background-color: #DCE4F2;
-    color: #592F16;
-}
+
 .darkZone{
     background-color: #592F16;
     color: #DCE4F2;
@@ -27,3 +30,5 @@ header span{
     font-size: 38px;
     font-family: 'sansation', serif;
 }
+
+
